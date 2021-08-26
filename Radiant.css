@@ -1,0 +1,75 @@
+.main-nav-bar {
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+.navbar__left {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.navbar__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.navbar__right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.navbar__right > button {
+  cursor: pointer;
+  background-color: navy;
+  color: lightgray;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.main-nav {
+  text-decoration: none;
+  text-align: center;
+  /* padding-top: 1px; */
+  align-items: center;
+}
+
+.jeremy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+body {
+  background-color: lightgray;
+}
+.Login-Icon {
+  /* align-items: right; */
+  position: fixed;
+  top: 10px;
+  float: right;
+  justify-content: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: lightgray;
+  margin: 8px 0;
+}
+
+.Login-Portal {
+  float: right;
+  background-color: rgba(15, 31, 241, 0.884);
+  color: lightgray;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.navbar__left > a > img {
+  margin-right: 9px;
+  width: 50px;
+}
