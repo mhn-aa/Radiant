@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.column1 {
+  background: linear-gradient(to top, white, gray, white);
+  display: flex;
+  float: left;
+  border-radius: 30px 0px 0px 30px;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column2 {
+  background: linear-gradient(to top, white, white, gray, white);
+  display: flex;
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column3 {
+  background: linear-gradient(to top, white, gray, white);
+  display: flex;
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.card1 {
+  display: grid;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card2 {
+  display: grid;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card3 {
+  display: grid;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.container1 {
+  display: grid;
+  padding: 0 16px;
+}
+.container2 {
+  display: grid;
+  padding: 0 16px;
+}
+.container3 {
+  display: grid;
+  padding: 0 16px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 9px;
+}
+.button:hover {
+  background-color: #555;
+}
+
+.disclaimer-wrapper {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border: 7px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.about-section {
+  flex: 1;
+  display: flex;
+  text-align: center;
+}
+
+.esm {
+  display: flex;
+}
+
+.construction {
+  display: flex;
+  flex: 1;
+}
+
+.disclaimer__p {
+  justify-content: flex-end;
+  display: flex;
+  flex: 1;
+}
+
+.esm {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.practicing__group {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background: linear-gradient(to top, white, gray, white);
+  border-radius: 15px;
+}
+
+.AlimoPic {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.AlimoPic > img {
+  border-radius: 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ETPic {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.ETPic > img {
+  border-radius: 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MahanPic {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.MahanPic > img {
+  border-radius: 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card2 > img {
+  border-radius: 15px;
+}
+
+.card3 > img {
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.button.button {
+  background-color: navy;
+}
