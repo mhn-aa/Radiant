@@ -73,3 +73,42 @@ body {
   margin-right: 9px;
   width: 50px;
 }
+
+.jeremy-lishner {
+  display: flex;
+  justify-content: center;
+}
+
+.jeremy-caption {
+  display: flex;
+  justify-content: center;
+}
+
+.eckhart__tolle {
+  justify-content: center;
+}
+
+.main__bodt {
+  display: flex;
+}
+.left__bar {
+  display: flex;
+  width: 18.333%;
+}
+.right__bar {
+  display: flex;
+  width: 18.333%;
+}
+.row {
+  display: flex;
+}
+
+.center__bar {
+  display: flex;
+  width: 63.333%;
+}
+
+.left__line {
+  display: flex;
+  justify-content: flex-end;
+}
