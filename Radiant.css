@@ -12,6 +12,7 @@
   justify-content: flex-end;
   flex: 1;
 }
+
 .navbar__center {
   flex: 1;
   display: flex;
@@ -88,7 +89,7 @@ body {
   justify-content: center;
 }
 
-.main__bodt {
+.main__body {
   display: flex;
 }
 .left__bar {
@@ -111,4 +112,74 @@ body {
 .left__line {
   display: flex;
   justify-content: flex-end;
+}
+
+.navigation {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.galaxy__line {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.universe__line {
+  display: flex;
+  flex: 1;
+}
+
+.hexagon {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background: transparent;
+  position: relative;
+  padding-top: ;
+}
+
+.hexagon::before {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid royalblue;
+}
+
+.hexagon::after {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  content: "";
+  position: absolute;
+  bottom: -28.8675px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 28.8675px solid royalblue;
+}
+
+.rectangle-bro {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 60px;
+  background-color: royalblue;
+}
+.learning {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+}
+.gnosticism {
+  display: flex;
+  justify-content: center;
 }
