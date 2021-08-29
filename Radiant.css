@@ -114,24 +114,25 @@ body {
   justify-content: flex-end;
 }
 
-.navigation {
+.head__brain {
   display: flex;
-  flex: 1;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .galaxy__line {
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   flex: 1;
 }
 
 .universe__line {
+  justify-content: center;
   display: flex;
   flex: 1;
 }
 
-.hexagon {
+/* .hexagon {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -140,9 +141,9 @@ body {
   background: transparent;
   position: relative;
   padding-top: ;
-}
+} */
 
-.hexagon::before {
+/* .hexagon::before {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -153,9 +154,9 @@ body {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 28.8675px solid royalblue;
-}
+} */
 
-.hexagon::after {
+/* .hexagon::after {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -165,21 +166,92 @@ body {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-top: 28.8675px solid royalblue;
-}
+} */
 
-.rectangle-bro {
+/* .rectangle-bro {
   display: flex;
   justify-content: center;
   width: 100px;
   height: 60px;
   background-color: royalblue;
-}
+} */
 .learning {
-  color: wheat;
+  color: yellow;
   display: flex;
   justify-content: center;
 }
-.gnosticism {
+/* .gnosticism {
   display: flex;
   justify-content: center;
+} */
+
+.triangle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 36px solid transparent;
+  border-right: 36px solid transparent;
+  border-bottom: 60px solid royalblue;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.law__of__correspondences {
+  display: inline-block;
+  margin-right: 20px;
+  flex: 1;
+  justify-content: flex-end;
+  border-radius: 7px;
+  background-color: navy;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 20px; */
+}
+
+.law__of__correspondences span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.law__of__correspondences span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.law__of__correspondences:hover span {
+  padding-right: 25px;
+}
+
+.law__of__correspondences:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.divide__et {
+  /* display: flex;
+  justify-content: center;
+  flex: 1; */
+}
+
+.for_triangle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.initiation {
+  display: flex;
 }
