@@ -21,7 +21,7 @@
 
       <!-- navbar right -->
       <div class="navbar__right">
-        <!-- <button>Login</button> -->
+        <button>Login</button>
       </div>
 
       <!-- <div class="main-nav">    
@@ -57,8 +57,8 @@
       </div>
 
       <div class="head__brain">
-        <!-- <button class="law__of__correspondences" style="vertical-align: middle">
-          <span> Law of Correspondences</span> -->
+        <button class="law__of__correspondences" style="vertical-align: middle">
+          <span> Law of Correspondences</span>
         </button>
       </div>
     </div>
@@ -94,11 +94,11 @@
               </p>
             </div>
             <div>
-              <p>
-                The good news is that you can free yourself from your mind. This
-                is the only true liberation. You can take the first step right
-                now.
-              </p>
+              <P
+                >The good news is that you can free yourself from your mind.
+                This is the only true liberation. You can take the first step
+                right now.</P
+              >
             </div>
             <div>
               <p>

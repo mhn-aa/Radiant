@@ -1,11 +1,11 @@
 .main-nav-bar {
-  height: 100px;
-  position: sticky;
+  /* height: 365px;
+  position: absolute;
   top: 0px;
   z-index: 1;
   background-color: lightgray;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 .navbar__left {
   display: flex;
@@ -48,9 +48,9 @@
   object-fit: contain;
 }
 
-body {
+/* body {
   background-color: lightgray;
-}
+} */
 .Login-Icon {
   /* align-items: right; */
   position: fixed;
@@ -133,57 +133,57 @@ body {
 }
 
 /* .hexagon {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  height: 60px;
-  width: 60px;
-  background: transparent;
-  position: relative;
-  padding-top: ;
-} */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    position: relative;
+    padding-top: ;
+  } */
 
 /* .hexagon::before {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  flex: 1;
-  content: "";
-  position: absolute;
-  top: -28.8675px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 28.8675px solid royalblue;
-} */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid royalblue;
+  } */
 
 /* .hexagon::after {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  content: "";
-  position: absolute;
-  bottom: -28.8675px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 28.8675px solid royalblue;
-} */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid royalblue;
+  } */
 
 /* .rectangle-bro {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  height: 60px;
-  background-color: royalblue;
-} */
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: royalblue;
+  } */
 .learning {
   color: yellow;
   display: flex;
   justify-content: center;
 }
 /* .gnosticism {
-  display: flex;
-  justify-content: center;
-} */
+    display: flex;
+    justify-content: center;
+  } */
 
 .triangle {
   display: flex;
@@ -242,8 +242,8 @@ body {
 
 .divide__et {
   /* display: flex;
-  justify-content: center;
-  flex: 1; */
+    justify-content: center;
+    flex: 1; */
 }
 
 .for_triangle {
@@ -257,12 +257,12 @@ body {
 }
 
 /* .dot {
-  height: 250px;
-  width: 250px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-} */
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  } */
