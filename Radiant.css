@@ -1,8 +1,8 @@
 .main-nav-bar {
   height: 100px;
-  position: sticky;
+  /* position: sticky; */
   top: 0px;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: lightgray;
   display: flex;
   align-items: center;
@@ -11,6 +11,12 @@
   display: flex;
   justify-content: flex-end;
   flex: 1;
+}
+.navbar__left > img {
+  margin-right: 0px;
+  width: 60px;
+  border-radius: 0%;
+  padding-top: 0%;
 }
 
 .navbar__center {
@@ -23,6 +29,27 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+}
+.triangle {
+  display: flex;
+  border-left: 36px solid transparent;
+  border-right: 36px solid transparent;
+  border-bottom: 60px solid royalblue;
+}
+.initiation {
+  top: 0px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.first_people {
+  display: flex;
+  flex: 0.3;
+}
+.first_About-us {
+  display: flex;
+  flex: 0.3;
 }
 .navbar__right > button {
   cursor: pointer;
@@ -68,11 +95,6 @@ body {
   color: lightgray;
   font-size: 18px;
   border-radius: 15px;
-}
-
-.navbar__left > a > img {
-  margin-right: 9px;
-  width: 50px;
 }
 
 .jeremy-lishner {
@@ -185,19 +207,6 @@ body {
   justify-content: center;
 } */
 
-.triangle {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  width: 0;
-  height: 0;
-  border-left: 36px solid transparent;
-  border-right: 36px solid transparent;
-  border-bottom: 60px solid royalblue;
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
 .law__of__correspondences {
   display: inline-block;
   margin-right: 20px;
@@ -250,10 +259,6 @@ body {
   flex: 1;
   display: flex;
   justify-content: center;
-}
-
-.initiation {
-  display: flex;
 }
 
 /* .dot {
