@@ -1,19 +1,28 @@
 .main-nav-bar {
   height: 100px;
-  /* position: sticky; */
   top: 0px;
-  /* z-index: 1; */
   background-color: lightgray;
   display: flex;
   align-items: center;
 }
 .navbar__left {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex: 1;
 }
 .navbar__left > img {
   margin-right: 0px;
+  width: 60px;
+  border-radius: 0%;
+  padding-top: 0%;
+}
+.navbar__right > img {
+  width: 60px;
+  border-radius: 0%;
+  padding-top: 0%;
+}
+
+.navbar__center > img {
   width: 60px;
   border-radius: 0%;
   padding-top: 0%;
@@ -27,7 +36,7 @@
 .navbar__right {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-right: 20px;
 }
 .triangle {
